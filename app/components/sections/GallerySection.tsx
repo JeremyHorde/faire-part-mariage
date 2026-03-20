@@ -34,7 +34,7 @@ export default function GallerySection() {
         >
           <div className="aspect-[4/5] overflow-hidden">
             <img 
-              src="images/1.Jpg" 
+              src="images/1.JPG" 
               className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-700"
               alt="Moment 1"
             />
@@ -54,7 +54,7 @@ export default function GallerySection() {
         >
           <div className="aspect-square overflow-hidden">
             <img 
-              src="images/3.Jpg" 
+              src="images/3.JPG" 
               className="w-full h-full object-cover grayscale-[0.1] group-hover:scale-105 transition-all duration-1000"
               alt="Moment 2"
             />
@@ -74,7 +74,7 @@ export default function GallerySection() {
         >
           <div className="aspect-[3/4] overflow-hidden">
             <img 
-              src="images/5.Jpg" 
+              src="images/5.JPG" 
               className="w-full h-full object-cover grayscale-[0.4] group-hover:grayscale-0 transition-all duration-700"
               alt="Moment 3"
             />
