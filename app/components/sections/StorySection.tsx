@@ -23,7 +23,7 @@ export default function StorySection() {
             <div className="absolute -inset-2 border border-mariage-kaki/10 translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-1000"></div>
             <div className="relative overflow-hidden shadow-2xl">
               <img 
-                src="images/6.jpg" 
+                src="images/6.Jpg" 
                 className="w-full aspect-[3/4] object-cover grayscale-[0.2] parallax-img scale-110"
                 alt="Émilie & Jason"
               />
