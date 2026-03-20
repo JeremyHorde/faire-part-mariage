@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-mariage-white: #FAFAFA;
+  --color-mariage-kaki: #7A7D61;
+  --color-mariage-kaki-dark: #5E614A;
+  --font-serif: var(--font-cormorant), serif;
+  --font-sans: var(--font-montserrat), sans-serif;
+  --color-mariage-violet: #4A3545;
+  /* --color-mariage-violet: #8B7D8C; */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e7eb; /* Gris clair pour l'extérieur du téléphone */
+  margin: 0;
+}
+
+/* FORCE LA TEXTURE ET LA COULEUR 
+   L'utilisation de !important ici assure que les utilitaires bg- de tailwind 
+   ne suppriment pas ton image de fond texturée.
+*/
+.paper-bg {
+  background-color: var(--color-mariage-white) !important;
+  background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png") !important;
+  background-attachment: fixed;
+}
+
+/* Version Kaki texturée pour la Timeline */
+.paper-bg-kaki {
+  background-color: var(--color-mariage-kaki) !important;
+  background-image: url("https://www.transparenttextures.com/patterns/handmade-paper.png") !important;
+  background-attachment: fixed;
+  filter: contrast(110%) brightness(95%); /* Pour faire ressortir la texture sur le foncé */
+}
+
+::-webkit-scrollbar { display: none; }
+
+/* Ombre portée subtile pour les photos de galerie */
+.shadow-editorial {
+  shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+/* Masquer la scrollbar horizontale sur mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
