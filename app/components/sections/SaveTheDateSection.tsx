@@ -29,7 +29,7 @@ export default function SaveTheDateSection({ scrollYProgress }: SaveTheDateProps
           </motion.h2>
 
           <motion.div variants={fadeUp} className="flex items-center justify-center gap-6 mt-12 mb-16">
-            <span className="font-serif text-3xl md:text-5xl italic">26</span>
+            <span className="font-serif text-3xl md:text-5xl italic">19</span>
             <div className="w-px h-12 bg-white/40" />
             <span className="font-serif text-3xl md:text-5xl italic">09</span>
             <div className="w-px h-12 bg-white/40" />
@@ -38,7 +38,7 @@ export default function SaveTheDateSection({ scrollYProgress }: SaveTheDateProps
 
           <motion.div variants={fadeUp}>
             <p style={{ fontVariant: 'small-caps' }} className="font-sans text-lg tracking-[0.3em] mb-2">
-              Chapelle Saint Luc • Troyes
+              Mairie de Sainte Savine • 11H00
             </p>
             <p className="font-serif italic text-sm opacity-60">
               Troyes, France

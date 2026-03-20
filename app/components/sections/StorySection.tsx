@@ -7,9 +7,6 @@ export default function StorySection() {
         
       <div className="max-w-[400px] mx-auto">
         <div className="relative mb-24 text-center">
-          <span className="font-sans text-[8px] uppercase tracking-[0.8em] opacity-40 mb-4 block">
-            Depuis 2020
-          </span>
           <h2 className="reveal-title font-serif text-6xl italic text-mariage-kaki-dark relative z-10">
             L'Éternité
           </h2>
@@ -34,8 +31,8 @@ export default function StorySection() {
             <div className="absolute -top-10 left-4 w-12 h-px bg-mariage-kaki/30 draw-line origin-left"></div>
         
             <p style={{ fontVariant: 'small-caps' }} className="font-sans text-xl leading-[2.1] text-justify tracking-widest px-4 opacity-80">
-              <span className="font-serif text-5xl float-left mr-3 mt-1 italic opacity-60">C</span>
-              'est dans la douceur d'un soir d'été que tout a commencé. Un regard, un sourire, et la certitude que nos chemins ne faisaient plus qu'un. Aujourd'hui, nous vous invitons à écrire la suite avec nous, dans cet écrin de verdure qui nous est cher.
+              <span className="font-serif text-5xl float-left mr-3 mt-1 italic opacity-60">I</span>
+              ls ne savaient pas encore, en se croisant dans leur couloirs du lycée, que leur vies s'entremêlaient déjà. Une histoire qu'ils souhaitent aujourd'hui sceller entourés de ceux qu'ils aiment. 
             </p>
         
             <div className="mt-12 flex justify-end px-4">

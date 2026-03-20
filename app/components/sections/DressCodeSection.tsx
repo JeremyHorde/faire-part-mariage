@@ -22,7 +22,7 @@ export default function DressCodeSection() {
         style={{ fontVariant: 'small-caps' }} 
         className="font-sans text-[12px] tracking-[0.4em] opacity-60 leading-relaxed text-mariage-kaki-dark"
       >
-        nuances terreuses & <br /> touches de prune
+        nuances vertes & <br /> violettes 
       </p>
     </section>
   );

@@ -23,11 +23,10 @@ export default function TimelineSection() {
           <div className="absolute left-[7px] top-0 bottom-0 w-[0.5px] bg-white/20 draw-line"></div>
         
         {[
-          { time: "14:30", event: "Cérémonie Civile", loc: "Mairie du IVe", detail: "Signature des registres" },
-          { time: "16:00", event: "Cérémonie Laïque", loc: "Jardins du Domaine", detail: "Échange des vœux sous les chênes" },
-          { time: "18:00", event: "Cocktail", loc: "Terrasse Ouest", detail: "Jazz Live & Rafraîchissements" },
-          { time: "20:30", event: "Dîner de Gala", loc: "La Grande Orangerie", detail: "Menu gastronomique de saison" },
-          { time: "23:00", event: "Ouverture du Bal", loc: "Salon Royal", detail: "Célébration jusqu'à l'aube" }
+          { time: "11:00", event: "Cérémonie Civile", loc: "Mairie de Sainte Savine", detail: "Signature des registres" },
+          { time: "12:30", event: "Discours Salle du Royaume", loc: "Salle du Royaume", detail: "Discours réalisé par Buisset Samuel" },
+          { time: "16:00", event: "Instant photo & Vin d'honneur", loc: "Salle polivalente de Bouilly luxembourg", detail: "Photo et dégustation" },
+          { time: "18:00", event: "Salle des fêtes & Début de soirée", loc: "Salle des fêtes de Bouilly luxembourg", detail: "Célébration jusqu'à l'aube" },
         ].map((item, idx) => (
           <motion.div key={idx} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="relative pl-12 group cursor-default">
 

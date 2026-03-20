@@ -16,17 +16,14 @@ export default function RsvpSection() {
         <h2 className="font-serif text-5xl italic mb-10 text-mariage-kaki-dark group-hover:text-mariage-violet transition-colors duration-700 relative z-10">
           R.S.V.P
         </h2>
-        
-        <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[12px] tracking-[0.3em] opacity-50 mb-12 relative z-10">
-          avant le 1er mai 2026
+        <br></br>
+
+        <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[12px] tracking-[0.3em]  mb-12 relative z-10">
+          Veuillez confirmer votre présence avant le 21 juin 2026
         </p>
-        
-        {/* Le bouton "Call to Action" */}
-        <button 
-          style={{ fontVariant: 'small-caps' }}
-          className="relative z-10 w-full py-5 border border-mariage-kaki font-sans text-[11px] tracking-[0.4em] text-mariage-kaki-dark transition-all duration-700 hover:border-mariage-violet hover:bg-mariage-violet hover:text-white"
-        >
-          Confirmer ma présence
+
+        <button className="relative z-10 px-6 py-3 border border-mariage-kaki rounded-full font-sans text-sm tracking-[0.2em] uppercase text-mariage-kaki-dark hover:bg-mariage-kaki/10 transition-colors duration-500">
+          Confirmer
         </button>
       </motion.div>
       

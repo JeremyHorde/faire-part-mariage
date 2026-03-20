@@ -14,10 +14,10 @@ export default function GallerySection() {
           whileInView="visible"
           className="font-sans text-[9px] uppercase tracking-[0.8em] mb-4 block opacity-40"
         >
-          Nos Souvenirs
+          Nos Fiançailles
         </motion.span>
         <h2 className="reveal-title font-serif text-5xl italic text-mariage-kaki-dark">
-          Le Tableau
+          Gallery
         </h2>
       </div>
 
@@ -40,7 +40,7 @@ export default function GallerySection() {
             />
           </div>
           <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[10px] tracking-widest text-center mt-2 opacity-60">
-            Été 2024
+            Fiançailles
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function GallerySection() {
             />
           </div>
           <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[11px] tracking-[0.2em] text-center mt-3 text-mariage-kaki-dark">
-            Promesses d'aube
+            28.02.2026
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ export default function GallerySection() {
             />
           </div>
           <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[10px] tracking-widest text-center mt-2 opacity-60">
-            Hiver 2023
+            Fiançailles
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export default function GallerySection() {
           style={{ fontVariant: 'small-caps' }} 
           className="font-sans text-xs tracking-[0.3em] italic opacity-50 leading-relaxed"
         >
-          chaque image est une note dans la symphonie de notre vie.
+          chaqu'un de ces instants est un moment précieux 
         </p>
       </div>
 
