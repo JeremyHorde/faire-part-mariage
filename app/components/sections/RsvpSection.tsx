@@ -22,9 +22,14 @@ export default function RsvpSection() {
           Veuillez confirmer votre présence avant le 21 juin 2026
         </p>
 
-        <button className="relative z-10 px-6 py-3 border border-mariage-kaki rounded-full font-sans text-sm tracking-[0.2em] uppercase text-mariage-kaki-dark hover:bg-mariage-kaki/10 transition-colors duration-500">
+        <a 
+          href="https://forms.gle/SFwB8sNjvGxWTdE19"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative z-10 inline-block px-6 py-3 border border-mariage-kaki rounded-full font-sans text-sm tracking-[0.2em] uppercase text-mariage-kaki-dark transition-colors duration-500 hover:border-mariage-kaki hover:bg-mariage-kaki hover:text-[#FDFDFB]"
+        >
           Confirmer
-        </button>
+        </a>
       </motion.div>
       
       <div className="mt-40 text-center opacity-40">
