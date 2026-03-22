@@ -35,7 +35,7 @@ export default function RsvpSection() {
       <div className="mt-40 text-center opacity-40">
         <p className="font-serif text-2xl italic mb-4 text-mariage-violet">É & J</p>
         <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[10px] tracking-widest text-mariage-kaki">
-          Créé avec amour pour notre famille
+          Créé avec amour pour nos invités
         </p>
       </div>
     </section>
