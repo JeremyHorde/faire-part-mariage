@@ -26,7 +26,7 @@ export default function TimelineSection() {
           { time: "11:00", event: "Cérémonie Civile", loc: "Mairie de Sainte Savine", detail: "Signature des registres" },
           { time: "12:30", event: "Discours Salle du Royaume", loc: "Salle du Royaume", detail: "Discours réalisé par Buisset Samuel" },
           { time: "16:00", event: "Instant photo & Vin d'honneur", loc: "Salle polivalente de Bouy luxembourg", detail: "Photo et dégustation" },
-          { time: "18:00", event: "Salle des fêtes & Début de soirée", loc: "Salle des fêtes de Bouy luxembourg", detail: "Célébration jusqu'à 4h30 du matin" },
+          { time: "18:00", event: "Salle des fêtes & Début de soirée", loc: "Salle des fêtes de Bouy luxembourg", detail: "Célébration jusqu'à 1h30 du matin" },
         ].map((item, idx) => (
           <motion.div key={idx} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="relative pl-12 group cursor-default">
 
