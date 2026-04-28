@@ -19,7 +19,7 @@ export default function RsvpSection() {
         <br></br>
 
         <p style={{ fontVariant: 'small-caps' }} className="font-sans text-[12px] tracking-[0.3em]  mb-12 relative z-10">
-          Veuillez confirmer votre présence avant le 25 mai 2026
+          Veuillez confirmer votre présence avant le 08 mai 2026
         </p>
 
         <a 
